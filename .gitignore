@@ -1,0 +1,17 @@
+node_modules
+.DS_Store
+logs
+release
+tem
+git
+src/webroot/.tmp
+.eslintrc.js
+.package.json
+.settings.json
+permission.js
+config.local.json
+locale/*.xlsx
+.vscode
+coverage
+yarn.lock
+.idea

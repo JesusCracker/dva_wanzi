@@ -1,0 +1,145 @@
+.pageContent {
+  background: #F8F8F8;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  overflow-y: scroll;
+  padding-bottom: 80px;
+
+  .tips {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    .bg-image {
+      width: 300px;
+      height: 192px;
+    }
+
+    .color {
+      color: #F8B54F;
+    }
+
+    .title {
+      text-align: center;
+      font-size: 13px;
+      font-family: Source Han Sans CN;
+      font-weight: 500;
+      color: #333333;
+    }
+
+    .btn {
+      text-align: center;
+      margin-top: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .choose {
+        padding-left: 50px;
+        padding-right: 50px;
+        background: linear-gradient(143deg, #F7CC75, #F8B54F);
+      }
+    }
+  }
+
+  .item {
+    position: relative;
+
+    .close {
+      position: absolute;
+      right: 42px;
+      top: 8px;
+      width: 10px;
+    }
+
+    .itemBlock {
+      width: 88%;
+      margin-left: 6%;
+      height: 100px;
+      background: #FFFFFF;
+      border-radius: 14px;
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      //justify-content: space-between;
+      .itemIndex {
+        padding-left: 20px;
+        font-size: 16px;
+        font-family: Source Han Sans CN;
+        font-weight: 400;
+        color: #999999;
+      }
+
+      .fileIcon {
+        padding-left: 20px;
+        padding-right: 10px;
+
+        .iconImage {
+          width: 40px;
+          height: 40px;
+        }
+      }
+
+      .fileName {
+        width: 100%;
+        .name {
+          overflow: hidden; //超出的文本隐藏
+          text-overflow: ellipsis; //用省略号显示
+          white-space: nowrap; //不换行
+          padding-right: 10px;
+          font-size: 17px;
+          font-family: Source Han Sans CN;
+          font-weight: 400;
+          color: #999999;
+        }
+
+        .pageContent {
+          font-size: 17px;
+          font-family: Source Han Sans CN;
+          font-weight: 400;
+          color: #999999;
+        }
+      }
+      .progress{
+        width: 100%;
+      }
+      .error{
+        color:#e43;
+      }
+
+    }
+  }
+
+  .fileListBtns {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    background: #ffffff;
+
+    .upload {
+      border: 1px solid #b3b3b3;
+      margin-left: 50px;
+    }
+
+    .order {
+      color:#fff;
+      background: linear-gradient(143deg, #F7CC75, #F8B54F);
+      margin-right: 50px;
+      padding-right: 24px;
+      padding-left: 24px;
+      border: none;
+
+    }
+
+  }
+}
+.adm-image-uploader-cell{
+  display: none;
+}
+
