@@ -15,3 +15,4 @@ locale/*.xlsx
 coverage
 yarn.lock
 .idea
+build
